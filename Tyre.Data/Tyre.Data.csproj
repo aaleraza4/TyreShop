@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tyre.Common\Tyre.Common.csproj" />
+    <ProjectReference Include="..\Tyre.DTOs\Tyre.DTOs.csproj" />
+    <ProjectReference Include="..\Tyre.Enums\Tyre.Enums.csproj" />
+  </ItemGroup>
+
+</Project>

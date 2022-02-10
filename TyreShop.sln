@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyreShop", "TyreShop\TyreShop.csproj", "{FCBB3EC1-3549-40CD-AF1D-90442E02A60B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyre.Business", "Tyre.Business\Tyre.Business.csproj", "{F33138D1-5C86-4BA1-A557-92B036649AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyre.Common", "Tyre.Common\Tyre.Common.csproj", "{CA5A7C69-E53D-4FB1-BBA0-A4FC37A2EE25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyre.Data", "Tyre.Data\Tyre.Data.csproj", "{4F980C86-F31C-4D2D-A27B-1D6202968D30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyre.Enums", "Tyre.Enums\Tyre.Enums.csproj", "{514D9DE0-CA10-493F-9BCB-F331109203AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyre.DTOs", "Tyre.DTOs\Tyre.DTOs.csproj", "{1996E745-18AE-494F-9449-2A259E6B2F99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCBB3EC1-3549-40CD-AF1D-90442E02A60B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBB3EC1-3549-40CD-AF1D-90442E02A60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBB3EC1-3549-40CD-AF1D-90442E02A60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBB3EC1-3549-40CD-AF1D-90442E02A60B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33138D1-5C86-4BA1-A557-92B036649AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33138D1-5C86-4BA1-A557-92B036649AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33138D1-5C86-4BA1-A557-92B036649AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33138D1-5C86-4BA1-A557-92B036649AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5A7C69-E53D-4FB1-BBA0-A4FC37A2EE25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5A7C69-E53D-4FB1-BBA0-A4FC37A2EE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5A7C69-E53D-4FB1-BBA0-A4FC37A2EE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5A7C69-E53D-4FB1-BBA0-A4FC37A2EE25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F980C86-F31C-4D2D-A27B-1D6202968D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F980C86-F31C-4D2D-A27B-1D6202968D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F980C86-F31C-4D2D-A27B-1D6202968D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F980C86-F31C-4D2D-A27B-1D6202968D30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514D9DE0-CA10-493F-9BCB-F331109203AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514D9DE0-CA10-493F-9BCB-F331109203AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514D9DE0-CA10-493F-9BCB-F331109203AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514D9DE0-CA10-493F-9BCB-F331109203AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1996E745-18AE-494F-9449-2A259E6B2F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1996E745-18AE-494F-9449-2A259E6B2F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1996E745-18AE-494F-9449-2A259E6B2F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1996E745-18AE-494F-9449-2A259E6B2F99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F579E7F-95EF-49B5-8462-458AA6E89555}
+	EndGlobalSection
+EndGlobal
