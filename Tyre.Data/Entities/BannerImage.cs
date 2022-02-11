@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Tyre.Data.Entities
 {
-    public class BannerImage
+    public class BannerImage : BaseEntity
     {
+        public string ImageName { get; set; }
+        public string ImageUrl { get; set; }
     }
 }

@@ -2,6 +2,7 @@
 using Tyre.Data.EFRepository;
 using Tyre.Data.Dbinitializer;
 using Microsoft.EntityFrameworkCore;
+using Tyre.Data.Repos;
 
 namespace TyreShop
 {
@@ -25,7 +26,7 @@ namespace TyreShop
             #endregion
 
             #region @@@[------Repository]
-            //webAppBuilder.Services.AddScoped<ISuperadminRepo, SuperadminRepo>();
+            webAppBuilder.Services.AddScoped<ISuperadminRepo, SuperadminRepo>();
             #endregion
         }
     }
